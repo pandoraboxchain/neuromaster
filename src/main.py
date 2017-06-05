@@ -8,7 +8,7 @@ CONFIGS_MWAPI = {
 
 CONFIGS_ETH = {
     'LOCAL': EthConfig(server='http://127.0.0.1', port=8545,
-                       contract='0x99d268d8d21b7f75a4a2023d9f3eb673066be310',
+                       contract='0xf26e66cff22070b06b49b88415d5622a7dbe0206',
                        abi='abi/Neurochain.json'),
     'INFURA': EthConfig(server='https://ropsten.infura.io', port=443,
                         contract='0xE275e9c7ceBF2C093C365439b836adF9A28537E2',

@@ -36,6 +36,6 @@ class EthConnector:
 
     def run(self):
         self.event_filter.start()
-        self.event_filter.join()
         self.event_filter.watch(on_neurocontract_created)
+        self.event_filter.join()
 
